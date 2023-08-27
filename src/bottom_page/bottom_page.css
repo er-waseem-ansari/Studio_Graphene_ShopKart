@@ -1,0 +1,139 @@
+.bottom_page{
+    background-color: purple;
+    height: 60vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.up{
+    display: flex;
+    padding-top: 85px;
+    /* position: absolute; */
+    margin-top: 85px;
+    margin-left: 85px;
+    /* background-color: blue; */
+
+}
+.newsletter_heading{
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+    text-align: start;
+    color: grey;
+}
+
+.head1{
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.form{
+    margin-left: 20vw;
+}
+
+.form_list{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    outline: none;
+    color: grey;
+    width: 30vw;
+
+    margin: 15px;
+}
+.down{
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    position: absolute;
+    /* background-color: purple; */
+    text-align: start;
+    line-height: 1;
+    margin-left: 85px;
+    color: white;
+    width: 80vw;
+    justify-content: space-between;
+    
+}
+
+.circular_button{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    color:#F07E15;
+    border: 2px solid #F07E15;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+}
+@media (max-width: 1225px){
+    .get_in_touch{
+        font-size: 80px;
+    }
+
+}
+@media (max-width: 1110px){
+    .get_in_touch{
+        font-size: 70px;
+    }
+    .circular_button{
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 880px){
+    .get_in_touch{
+        font-size: 60px;
+    }
+    .circular_button{
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 770px){
+    .get_in_touch{
+        font-size: 40px;
+    }
+    .up{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .form{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .newsletter_heading{
+        display: flex;
+        flex-direction: column;
+        width: 266px;
+        text-align: center;
+        color: grey;
+    }
+    .circular_button{
+        margin-left: 0;
+    }
+
+}
+@media (max-width: 510px){
+    .down{
+        margin-left: 10px;
+    }
+    .get_in_touch{
+        font-size: 30px;
+    }
+}

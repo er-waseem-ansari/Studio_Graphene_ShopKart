@@ -1,0 +1,368 @@
+.landing{
+    background-color: #161615;
+    height: 611px;
+    
+}
+.star_box_person_image{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #161615;
+}
+.person_with_jacket{
+    position: absolute;
+    align-self: flex-end;
+    margin-right: 56px;
+    height: 611px;
+    z-index: 3;
+    
+}
+.person_with_jacket_half{
+    height: 333px;
+    align-self: flex-end;
+    margin-right: 61px;
+    z-index: 4;
+}
+.big_star{
+    position: absolute;
+    align-self: flex-end;
+    z-index: 5;
+    width: 45px;
+    margin-right: 360px;
+    margin-top: 262px;
+
+}
+.orange_box{
+    display: flex;
+    flex-direction: column;
+    height: 333px;
+    width: 75%;
+    background-color: #F07E15;
+    position: absolute;
+    align-self: flex-end;
+    opacity: 1;
+
+    margin-top: 197px;
+
+    
+}
+.fresh_word, .look_word,.year_2022{
+    color: white;
+    z-index: 1;
+    font-family: 'Syne', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+.fresh_word{
+    align-self: flex-start;
+}
+.year_2022{
+    align-self: flex-end;
+}
+.look_word{
+    align-self: flex-start;
+}
+.three_words{
+    margin-top: 110px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 400px;
+    width: 900px;
+    z-index: 6;
+}
+.last_line{
+    position: absolute;
+    margin-top: 490px;
+    width: 76%;
+    align-self: flex-start;
+}
+.star-3{
+    width: 367px;
+    align-self: flex-end;
+    z-index: 1;
+    margin-right: 20px;
+  
+}
+
+@media (max-width: 1500px){
+    .fresh_word, .look_word,.year_2022{
+        color: white;
+        z-index: 1;
+        font-family: 'Syne', sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+    }
+    .three_words{
+        margin-top: 120px;
+        margin-left: 130px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 400px;
+        width: 800px;
+        z-index: 6;
+    }
+}
+
+@media (max-width: 1330px){
+    .fresh_word, .look_word,.year_2022{
+        color: white;
+        z-index: 1;
+        font-family: 'Syne', sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .three_words{
+        margin-top: 130px;
+        margin-left: 130px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 400px;
+        width: 700px;
+        z-index: 6;
+    }
+}
+
+@media (max-width: 1380px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 70px;
+    }
+    .three_words{
+        margin-top: 140px;
+        width: 700px;
+    }
+}
+
+@media (max-width: 1250px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-top: 150px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 1120px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-top: 150px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1020px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-top: 150px;
+        width: 400px;
+    }
+    .star-3{
+        width: 35;
+    }
+}
+
+@media (max-width: 930px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-left: 100px;
+        margin-top: 150px;
+        width: 400px;
+    }
+    .star-3{
+        width: 30;
+    }
+}
+
+@media (max-width: 890px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 400px;
+    }
+    .star-3{
+        width: 350px;
+    }
+}
+
+@media (max-width: 750px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 60px;
+    }
+    .three_words{
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 400px;
+    }
+    .star-3{
+        width: 350px;
+    }
+    .person_with_jacket{
+        margin-right: 41px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 46px;
+    }
+}
+
+@media (max-width: 735px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 50px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 160px;
+        width: 400px;
+    }
+    .star-3{
+        width: 350px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 41px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 46px;
+    }
+    .orange_box{
+        width: 80%;
+    }
+}
+@media (max-width: 725px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 50px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 160px;
+        width: 400px;
+    }
+    .star-3{
+        width: 350px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 31px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 36px;
+    }
+    .orange_box{
+        width: 90%;
+    }
+}
+
+@media (max-width: 720px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 50px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 200px;
+        width: 400px;
+    }
+    .star-3{
+        width: 350px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 31px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 36px;
+    }
+    .orange_box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 50px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 210px;
+        width: 400px;
+    }
+    .star-3{
+        width: 330px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 21px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 26px;
+    }
+    .orange_box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 45px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 220px;
+        width: 300px;
+    }
+    .star-3{
+        width: 300px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 10px;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 15px;
+    }
+    .orange_box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px){
+    .fresh_word, .look_word,.year_2022{
+        font-size: 40px;
+    }
+    .three_words{
+        margin-left: 35px;
+        margin-top: 230px;
+        width: 250px;
+    }
+    .star-3{
+        width: 250px;
+        height: 367px;
+    }
+    .person_with_jacket{
+        margin-right: 0;
+    }
+
+    .person_with_jacket_half{
+        margin-right: 5px;
+    }
+    .orange_box{
+        width: 100%;
+    }
+}
