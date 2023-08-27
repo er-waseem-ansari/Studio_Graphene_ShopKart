@@ -122,7 +122,24 @@ a{
 .desc_2{
     color: #887c7c;
 }
-
+.desc_1{
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20vw;
+    /* textvw-overflow: ellipsis; */
+}
+.desc_2{
+width: 20vw;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 4em; /* Adjust the height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
 @media (max-width: 1060px){
     .new_product_heading{
         font-size: 80px;

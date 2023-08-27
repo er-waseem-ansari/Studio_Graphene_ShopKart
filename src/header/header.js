@@ -15,7 +15,7 @@ const Header = () => {
             </div>
 
             <div className="right_links">
-                <a href="/" style={{ marginRight: 32 }} id="login">Login</a>
+                <a href="/"  id="login">Login</a>
                 <span>&nbsp;</span>
                 <a href="/" style={{ marginRight: 12 }} id="follow_us">Follow Us</a>
                 <div className="social_links">
