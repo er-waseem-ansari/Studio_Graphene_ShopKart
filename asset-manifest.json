@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Studio_Graphene_ShopKart/static/css/main.825088fc.css",
+    "main.js": "/Studio_Graphene_ShopKart/static/js/main.dd1dfe97.js",
+    "static/js/787.b12a91a2.chunk.js": "/Studio_Graphene_ShopKart/static/js/787.b12a91a2.chunk.js",
+    "static/media/person_with_jacket.png": "/Studio_Graphene_ShopKart/static/media/person_with_jacket.3ad8ac44c189ee44f7ea.png",
+    "static/media/person_with_jacket-half.png": "/Studio_Graphene_ShopKart/static/media/person_with_jacket-half.5e2cff6455777c9942fe.png",
+    "static/media/bottom_design.png": "/Studio_Graphene_ShopKart/static/media/bottom_design.7261d9d9dbfb89fe4119.png",
+    "static/media/second_image.png": "/Studio_Graphene_ShopKart/static/media/second_image.fbda3167ed364c5c1ccf.png",
+    "static/media/third_image.png": "/Studio_Graphene_ShopKart/static/media/third_image.ebed5af0657499eee0bf.png",
+    "static/media/first_image.png": "/Studio_Graphene_ShopKart/static/media/first_image.ebaabd74339f1f20eb81.png",
+    "static/media/Star_3.png": "/Studio_Graphene_ShopKart/static/media/Star_3.bfdd07314619a3afe02f.png",
+    "static/media/fourth_image.png": "/Studio_Graphene_ShopKart/static/media/fourth_image.7439a0b95a460287342f.png",
+    "index.html": "/Studio_Graphene_ShopKart/index.html",
+    "main.825088fc.css.map": "/Studio_Graphene_ShopKart/static/css/main.825088fc.css.map",
+    "main.dd1dfe97.js.map": "/Studio_Graphene_ShopKart/static/js/main.dd1dfe97.js.map",
+    "787.b12a91a2.chunk.js.map": "/Studio_Graphene_ShopKart/static/js/787.b12a91a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.825088fc.css",
+    "static/js/main.dd1dfe97.js"
+  ]
+}
